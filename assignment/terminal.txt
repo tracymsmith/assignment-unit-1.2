@@ -31,15 +31,16 @@ folder containing files output would list all the files in the folder
 
 # 8 - Why would you run the command 'git status'?
 
-To determine if there were any files (red in color) in the staging area that need to be (haven't been) committed and/or to verify that
-the files you want to send to repository on personal GitHub have been committed (green in color).
+To determine if there were any files (red in color) not yet in the staging area that need to be (haven't been) committed to
+staging area and/or to verify that the files you want to send to repository on personal GitHub have been committed (green in color)
+and are now in staging area.
 
 # 9 - What does the command 'git add .' do?
 
-It changes uncommitted files (red in color) in the staging area to committed files (green in color) that are
-now ready to be pushed to repository on personal GitHub.
+It changes uncommitted files (red in color) not yet in the staging area to committed files (green in color) that are
+now in staging area and ready to be pushed to repository on personal GitHub.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 
-After 1st running 'git status' command to confirm the files have been committed (green in color), then
+After 1st running 'git status' command to confirm the files have been committed (green in color) to staging area, then
 run command 'git push origin main' to push files to repository on personal GitHub.
